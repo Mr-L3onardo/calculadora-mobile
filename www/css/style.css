@@ -1,0 +1,78 @@
+/*  */.container{
+    width: 1300px; /*Definr a largura do container*/
+    height: 500px;
+    padding-top: 500px;/*Define o espaçamento interno superior*/
+    background-image: url(../img/OIP.jpg);
+    
+
+}
+
+.coluna{
+    width: 20%;
+    height: 500px;
+   background-color: #960018;
+    margin: 0 auto; /*Centraliza a div com clase .coluna*/
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: -300px;
+    
+}
+
+.coluna label{
+    display: block; /*Altera o display da tag label*/
+    margin: 10px 0; /*Define margem superior e inferior para 0 e dir e esq automatica*/
+    margin-left: 10%;
+    align-items: center;
+}
+
+.coluna button{
+    display: block; 
+    margin: 10px 10%;
+    width: 80%;
+    background: #F000;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.coluna input{
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 20px;/*Usada para arredondar a margem*/
+}
+
+.anteriores div{
+    background: #4D4DFF;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 50%;
+    height: 100px;
+}
+
+.anteriores h3{
+    font-weight: bold;/*estila a fonte para negrito*/
+    font-size: 23px;
+    
+}
+
+.anteriores p{
+    font-size: 20px;
+   
+}
+
+.anteriores strong{
+    font-weight: bold;
+}
+
+.anteriores h4{
+    font-size: 20px;
+   
+}
+
